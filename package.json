@@ -35,6 +35,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:dev": "nodemon -e js app.js"
   },
-  "author": "",
+  "author": "Corey",
   "license": "ISC"
 }
