@@ -1,0 +1,26 @@
+<section class="pagination">
+        <!-- 
+            This first a only shows if we are on a page higher than 2.
+            This is so we can always show the 1st page option no matter what. 
+        -->
+        <% if(currentPage !== 1 && previousPage !== 1){ %>
+            <a href="?page=1">1</a>
+        <% } %>
+        <!-- Show previous link of current page -->
+        <% if(hasPreviousPage){ %>
+            <a href="?page=<%=previousPage%>"><%=previousPage%></a>
+        <% } %>
+        <!-- Shows current page -->
+        <a href="?page=<%=currentPage%>" class="active"><%=currentPage%></a>
+        <!-- Shows next link of current page -->
+        <% if(hasNextPage){ %>
+            <a href="?page=<%=nextPage%>"><%=nextPage%></a>
+        <% } %>
+        <!-- Similar to page 1. Always shown no matter what.
+             If last page is the current page however, the above code 
+              takes over to set the active class. 
+        -->
+        <% if(lastPage !== currentPage && nextPage !== lastPage){ %>
+            <a href="?page=<%=lastPage%>"><%=lastPage%></a>
+        <% } %>
+</section>

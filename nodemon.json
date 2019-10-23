@@ -1,0 +1,8 @@
+{
+    "env": {
+        "MONGO_USER": "GLCorey",
+        "MONGO_PASSWORD": "StormEnforcer1",
+        "MONGO_DEFAULT_DATABASE": "shop",
+        "STRIPE_KEY": "sk_test_07QiFLbIrC12CO7RSTAYlZp200dCUoZurd"
+    }
+}
