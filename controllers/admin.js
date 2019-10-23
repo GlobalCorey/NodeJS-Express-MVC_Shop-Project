@@ -74,7 +74,7 @@ exports.postAddProduct = (req, res, next) => {
     product
     .save()
     .then(result => {
-        res.redirect('/admin/products')
+        res.redirect('/admin/products');
     })
     .catch(err => {
         const error = new Error(err);
@@ -151,7 +151,7 @@ exports.postEditProduct = (req, res, next) => {
         return product
         .save()
         .then(result => {
-            res.redirect('/admin/products')
+            res.redirect('/admin/products');
         })
     })
     .catch(err => {
