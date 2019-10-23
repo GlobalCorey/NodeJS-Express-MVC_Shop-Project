@@ -10,10 +10,13 @@
 			"path": "/home/corey/ProgrammingProjects/NodeJsCourse"
 		},
 		{
-			"path": "/home/corey/ProgrammingProjects/REST_API_NodeJSCourse"
+			"path": "/home/corey/ProgrammingProjects/REST_API_ReactFrontEnd"
 		},
 		{
-			"path": "/home/corey/ProgrammingProjects/REST_API_ReactFrontEnd"
+			"path": "/home/corey/ProgrammingProjects/GraphQL_NodeJSCourse"
+		},
+		{
+			"path": "/home/corey/ProgrammingProjects/REST_API_NodeJS_SocketIO"
 		}
 	],
 	"settings": {}
