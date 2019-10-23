@@ -4,7 +4,7 @@ const MongoClient = mongodb.MongoClient;
 let _db;
 
 const mongoConnect = (callback) => {
-    MongoClient.connect('mongodb+srv://GLCorey:StormEnforcer1@cluster0-hdloo.mongodb.net/shop?retryWrites=true&w=majority', {
+    MongoClient.connect('<INSERT_MONGODB_URL', {
         useNewUrlParser: true,
         useUnifiedTopology: true
     })
